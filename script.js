@@ -33,6 +33,7 @@ function play(event) {
         }
     }
     checkGameStatus()
+    document.activeElement.blur()
 }
 
 
