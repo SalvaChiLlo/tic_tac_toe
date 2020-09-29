@@ -126,7 +126,7 @@ function checkGameStatus() {
         gameFinished = true
     }
 
-    if (gridComplete) {
+    if (gridComplete && (!xWins || !oWins) ) {
         turn.innerHTML = "Game has finished"
         gameFinished = true
     }
