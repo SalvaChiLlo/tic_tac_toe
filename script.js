@@ -46,6 +46,7 @@ function reset() {
     }
     cont = 0
     turn.innerHTML = "Your turn ==> X"
+    turn.style.color = "white"
     gameFinished = false;
 }
 
@@ -128,5 +129,9 @@ function checkGameStatus() {
     if (gridComplete) {
         turn.innerHTML = "Game has finished"
         gameFinished = true
+    }
+
+    if(turn.innerHTML === "Game has finished") {
+        turn.style.color = "yellow"
     }
 }
