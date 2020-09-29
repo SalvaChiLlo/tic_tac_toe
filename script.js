@@ -134,4 +134,8 @@ function checkGameStatus() {
     if(turn.innerHTML === "Game has finished") {
         turn.style.color = "yellow"
     }
+
+    if(xWins || oWins) {
+        turn.style.color = "green"
+    }
 }
