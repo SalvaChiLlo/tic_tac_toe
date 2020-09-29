@@ -15,6 +15,7 @@ body {
     align-items: center;
     color: white;
     font-family: 'Varela Round', sans-serif;
+    height: 100vh;
 }
 
 .title {
